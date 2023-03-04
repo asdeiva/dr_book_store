@@ -46,7 +46,7 @@
 }
 
 #hisBtn {
-  visibility: hidden;
+  visibility: visible;
   width: 100px;
   padding: 5px;
   color: black;
