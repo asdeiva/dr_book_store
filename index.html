@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DR Book Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar" onclick="home()">
+      <p>Book store App</p>
+    </div>
+
+    <div class="search">
+      <p>Search For Books By Their Name</p>
+      <input
+        type="text"
+        name="searchInput"
+        id="searchInput"
+        placeholder="Search..."
+      />
+      <br />
+      <div id="btndiv">
+        <button id="searchNow" class="btn">Search Now!</button>
+        <button id="hisBtn">Search History</button>
+      </div>
+    </div>
+    <div id="outputText">Book Results For `<span id="searchInOut"></span>`</div>
+    <div id="output">
+      <!-- <div class="container">
+            <div></div>
+            <img src="http://books.google.com/books/content?id=oXZUAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" alt="img">
+            <div>Title: data.volumeInfo.title</div>
+            <div>Author: data.volumeInfo.authors</div>
+            <div>PageCount: ${data[i].pageCount}</div>
+            <div>Publisher: data.volumeInfo.publisher</div>
+            <div><button>Buy Now</button></div>
+            
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+    <script>
+      function home() {
+        window.location.href = "./index.html";
+      }
+    </script>
+  </body>
+</html>

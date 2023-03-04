@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid white;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+.search {
+  margin: 10px;
+}
+.search p {
+  margin: 10px 0px;
+}
+.search input {
+  width: 95%;
+  border: 1px solid;
+  padding: 5px;
+  margin: 10px 0px;
+}
+.btn {
+  width: 100px;
+  padding: 5px;
+  color: black;
+  background-color: white;
+}
+
+.btn2 {
+  width: 200px;
+  padding: 5px;
+  color: black;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+#btndiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hisBtn {
+  visibility: hidden;
+  width: 100px;
+  padding: 5px;
+  color: black;
+  background-color: white;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  padding: 10px;
+  border: 3px solid white;
+}
+.container div {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+#output {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#outputText {
+  display: none;
+}
+
+.actionbar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.list {
+  gap: 1rem;
+  margin: 10px;
+}
+.list li {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+}
